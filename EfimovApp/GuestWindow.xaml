@@ -1,0 +1,15 @@
+﻿<Window x:Class="EfimovApp.GuestWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EfimovApp"
+        mc:Ignorable="d"
+        Title="ООО «Творчество - Гостевая страница" Height="450" Width="800" ResizeMode="NoResize" Icon="/Icon/icon.ico">
+    <Grid>
+        <Label Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="900" Height="117" Background="#FF76E383"/>
+        <Image HorizontalAlignment="Left" Height="116" VerticalAlignment="Top" Width="107" RenderTransformOrigin="-0.406,-0.093" Source="/Pictures/logo.png"/>
+        <Label Content="Гостевая страница" HorizontalAlignment="Center" Margin="0,38,0,0" VerticalAlignment="Top" FontSize="22" FontFamily="Comic Sans MS"/>
+        <Button x:Name="GuestBackButton" Content="Вернуться на главную" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="14" FontFamily="Comic Sans MS" Background="#FF498C51" Click="GuestBackButton_Click"/>
+    </Grid>
+</Window>
